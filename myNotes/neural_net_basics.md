@@ -20,5 +20,19 @@ You will  use the alpha variable to reduce weight update so it doesn’t oversho
 
 Hot and cold: it consist on wiggling the weight to see when it reduce the error
 
-gradient descent: it consist on to find the minimums error for learning
+gradient descent: it consist on to find the minimums error for learning.
+
+Exists 3 gradient descent. When we talk about stochastic gradient descent, it updates the weights one example at the time. The full gradient descent, it updates one dataset at the time. Batch gradient descent, in this case you choose a batch size for updates the weight. 
+
+## Overfitting
+
+"Error is shared among all the weights. If a particular configuration of weights accidentally creates perfect correlation between the prediction and the output dataset without giving the heaviest weight to the best inputs, the neural network
+will stop learnin". andrew trask
+
+The greatest challenge is convincing my neural network to generalize instead of just memorize
+
+##  Backpropagation
+
+It consist  on moving delta around to take a correlation of input and output. More technicaly it is about calculating deltas for intermediate layers for perform gradient descent 
+
 
