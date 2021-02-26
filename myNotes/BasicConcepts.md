@@ -49,6 +49,7 @@ It consist  on moving delta around to take a correlation of input and output. Mo
         dropout: radomly turn off the neurons(set them to 0) during training (multiply the layer values by a random matrix of 1s and 0s)
     </li>
     
+    
 
 
 </ul>
