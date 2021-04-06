@@ -32,7 +32,7 @@ will stop learnin". andrew trask
 
 The greatest challenge is convincing my neural network to generalize instead of just memorize
 
-##  Backpropagation
+## Backpropagation
 
 It consist  on moving delta around to take a correlation of input and output. More technicaly it is about calculating deltas for intermediate layers for perform gradient descent 
 
@@ -48,10 +48,6 @@ It consist  on moving delta around to take a correlation of input and output. Mo
     <li>
         dropout: radomly turn off the neurons(set them to 0) during training (multiply the layer values by a random matrix of 1s and 0s)
     </li>
-    
-    
-
-
 </ul>
 
 ## Correlation summarization
@@ -68,6 +64,7 @@ and output datasets, respectively". andrew Trask
 "What an earlier layer says it should be can be determined by taking what a later layer says it should be and multiplying it by the weights in between them. This way, later layers can tell earlier layers what kind of signal they need, to ultimately find correlation with the output. This cross-communication is called backpropagation." andrew Trask
 
 ## notation
+
 <ul>
     <li>
         I0W0: Take the layer 0 vector and perform vector-
