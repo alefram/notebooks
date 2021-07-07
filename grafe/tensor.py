@@ -24,7 +24,7 @@ class Tensor (object):
                     c.children[self.id] = 1
                 else:
                     c.children[self.id] += 1
- 
+
     # check whether a tensor has received the correct number of gradients  from each child
     def all_children_grads_accounted_for(self):
         for id,cnt in self.children.items():
@@ -32,7 +32,7 @@ class Tensor (object):
                 return False
         return True
 
-    
+
     def backpropagation(self, grad=None, grad_origin=None):
         """
         For compute Gradients
@@ -44,15 +44,15 @@ class Tensor (object):
                     raise  Exception("cannot backdrop more than once")
                 else:
                     self.children[grad_origin.id] -= 1
-                
+
             if(self.grad is None):
                  #accumulates gradients from several children
                 self.grad = grad
             else:
                 self.grad += grad
-            
-            if( self.creators is not None 
-                and (self.all_children_grads_accounted_for() 
+
+            if( self.creators is not None
+                and (self.all_children_grads_accounted_for()
                 or grad_origin is None)):
 
                 if(self.creation_op == "add"):
@@ -62,17 +62,17 @@ class Tensor (object):
     def __add__(self, other):
         if(self.autograd and other.autograd):
             return Tensor(
-                    self.data + other.data, 
-                    autograd=True, 
-                    creators=[self,other], 
+                    self.data + other.data,
+                    autograd=True,
+                    creators=[self,other],
                     creation_op="add"
             )
 
         return Tensor(self.data + other.data)
-    
+
     def __repr__(self):
         return str(self.data.__repr__())
-    
+
     def __str__(self):
         return str(self.data.__str__())
 
@@ -81,9 +81,9 @@ x = Tensor([1,2,3,4])
 y = Tensor([2,2,2,2])
 print(x)
 
+
 z = x + y
 z.backpropagation(Tensor(np.array([1,1,1,1])))
-
 print(x.grad)
 print(y.grad)
 print(z.creators)
@@ -98,3 +98,8 @@ e = b + c
 f = d + e
 f.backpropagation(Tensor(np.array([1,1,1,1,1])))
 print(b.grad.data == np.array([2,2,2,2,2]))
+
+def hola(x):
+    return x
+
+hola(x)
