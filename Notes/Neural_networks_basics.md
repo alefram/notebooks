@@ -1,5 +1,4 @@
-# Basic concepts
-
+# Neural Networks
 
 ## what is a input data?
 
