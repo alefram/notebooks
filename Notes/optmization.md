@@ -21,13 +21,14 @@ f(x,\theta) is a neural network taking input x and giving a prediction.
 
 ## Some optimizations methods deterministics
 
-1) gradient descend
+1) gradient descend(1nd-order method)
 2) momentum method
 3) 2nd-order method
 
 ## Some optimizations methods stochastics
 
  1) Stochastic gradient descent
+ 2) Stochastics 2nd-order method
 
 
 # Usefull resources
