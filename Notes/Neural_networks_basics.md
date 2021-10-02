@@ -2,11 +2,15 @@
 
 ## what is a input data?
 
-"It’s a number that you recorded in the real world somewhere". andrew trask
+It is a number that you recorded in the real world somewhere.
+
+It is important that, the datapoints that you pass at the same time to the neural network depends on when you think that the neural network can be accurate with this data. 
+
+Also we can put negative numbers in the data.
 
 ## what is a prediction?
 
-"A prediction is what the neural network tells you". It not always is right but it can learn from it. It can predict with multiple inputs and multiple outputs 
+A prediction is what the neural network tells you. It not always is right but it can learn from it. It can predict with multiple inputs and multiple outputs.
 
 ## what is a weight?
 
