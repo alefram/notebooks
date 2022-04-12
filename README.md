@@ -11,3 +11,7 @@ In the assets folder you will see my images and datasets that I use for check th
 ## Resources
 
 * [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning), Author: Andrew Trask
+
+## License
+
+MIT License
