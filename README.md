@@ -1,16 +1,13 @@
-# Learning-deepLearning
+# Learning-AI 
 
-My jupyter notebooks for study and practice about deep learning fundamentals
-
-## Getting Started
-
-If you want to use this project, you can clone it and review my jupyter notebooks and see if you find something usefull for you, I hope it would be.
-
-In the assets folder you will see my images and datasets that I use for check the algorithms.
+This is just me trying to learn about Deep Learning, Reinforcement
+Learning fundamentals and Machine Learning in General.
 
 ## Resources
 
 * [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning), Author: Andrew Trask
+* [Reinforcement Learning dennybritz](https://github.com/dennybritz/reinforcement-learning)*
+* [Reinforcement Learning: an introduction](https://inst.eecs.berkeley.edu/~cs188/sp20/assets/files/SuttonBartoIPRLBook2ndEd.pdf), Author: Richard Sutton, Andrew Barto
 
 ## License
 
