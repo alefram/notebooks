@@ -1,7 +1,7 @@
 # Learning-AI 
 
-This is just me trying to learn about Deep Learning, Reinforcement
-Learning fundamentals and Machine Learning in General.
+This is just me learning about Deep Learning, Reinforcement
+Learning fundamentals, Robotics and Machine Learning in General in notebooks.
 
 ## Resources
 

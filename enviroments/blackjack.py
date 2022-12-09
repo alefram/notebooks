@@ -63,8 +63,3 @@ class BlackjackEnv(gym.Env):
     def seed(self,_seed=None):
         self.randomNumpy,  seed = seeding.np_random(seed)
         return [seed]
-    
-    def step(self,action):
-        assert self.action_space.contains(action)
-        if action:
-            
