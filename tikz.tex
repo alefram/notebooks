@@ -1,22 +1,20 @@
+\documentclass{article}
 \usepackage{tikz}
-
-\usetikzlibrary {positioning}
-
+\usetikzlibrary{positioning}
+\begin{document}
 \begin{tikzpicture}[
-    nonterminal/.style={
-      % The shape:
-      rectangle,
-      % The size:
-      minimum size=6mm,
-      % The border:
-      very thick,
-      draw=red!50!black!50,         % 50% red and 50% black,
-                                    % and that mixed with 50% white
-      % The filling:
-      top color=white,              % a shading that is white at the top...
-      bottom color=red!50!black!20, % and something else at the bottom
-      % Font
-      font=\itshape
-    }]
-  \node [nonterminal] {unsigned integer};
+roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm},
+squarednode/.style={rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm},
+]
+%Nodes
+\node[squarednode]      (maintopic)                              {2};
+\node[roundnode]        (uppercircle)       [above=of maintopic] {1};
+\node[squarednode]      (rightsquare)       [right=of maintopic] {3};
+\node[roundnode]        (lowercircle)       [below=of maintopic] {4};
+
+%Lines
+\draw[->] (uppercircle.south) -- (maintopic.north);
+\draw[->] (maintopic.east) -- (rightsquare.west);
+\draw[->] (rightsquare.south) .. controls +(down:7mm) and +(right:7mm) .. (lowercircle.east);
 \end{tikzpicture}
+\end{document}
