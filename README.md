@@ -1,6 +1,6 @@
 # Learning-AI 
 
-Jupyter learning notebooks and experiments of Deep learning.
+ Notebooks and experiments of Deep learning.
 
 ## Resources
 
