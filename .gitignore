@@ -3,5 +3,5 @@
 .vscode
 /learningAI
 *.log
-/assets
+/assets/datasets
 
