@@ -1,7 +1,10 @@
 .ipynb_checkpoints
 .idea
 .vscode
-/learningAI
+/venv
 *.log
-/assets/datasets
+.*.swp
+*.pyc
+data
+lightning_logs
 
