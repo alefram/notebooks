@@ -1,6 +1,6 @@
-# Deep-learning 
+# Notebooks
 
- Notebooks and experiments of Deep learning.
+ Notebooks about Machine learning and Control theory.
 
 ## Resources
 
