@@ -3,3 +3,5 @@ mujoco
 jax[cpu]
 flax
 torch
+gymnasium
+numpy
