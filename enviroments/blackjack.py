@@ -2,7 +2,9 @@ import gym
 from gym import spaces
 from gym.utils import seeding
 
+sdkjafsldfkjasldfj
 
+dlladkflas
 #TODO: averiguar que hace cmp method.
 def cmp(a,b):
     return int(a>b) - int(a<b)
