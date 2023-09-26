@@ -7,4 +7,5 @@
 *.pyc
 data
 lightning_logs
+/agent
 
