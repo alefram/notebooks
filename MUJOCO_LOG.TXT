@@ -1,6 +1,0 @@
-Sat Nov 11 19:10:03 2023
-WARNING: mju_openResource: unknown file '/../mujoco_menagerie/universal_robots_ur5e/ur5e.xml'
-
-Mon Nov 13 23:18:43 2023
-WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.4180.
-
