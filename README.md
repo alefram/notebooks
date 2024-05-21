@@ -1,6 +1,6 @@
 # Notebooks
 
- Notebooks about Machine learning and Control theory.
+My Notebooks about Machine learning for practice.
 
 ## Resources
 
