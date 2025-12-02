@@ -1,6 +1,6 @@
 jupyter
 mujoco
-jax[cpu]
+jax[cuda12]
 flax
 torch
 gymnasium
