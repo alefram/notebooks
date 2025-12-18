@@ -1,6 +1,6 @@
 # Notebooks
 
-My Notebooks about Machine learning for practice.
+My Notebooks for practice stuff, machine learning, control, whatever.
 
 ## Resources
 
